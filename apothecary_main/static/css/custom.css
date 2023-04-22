@@ -12,5 +12,6 @@
   bottom: 100%;
   right : 20px;
   animation-name: show-toast;
-  animation-duration: 15s;
+  animation-duration: 6s;
+  z-index: 99;
 }

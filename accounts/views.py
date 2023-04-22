@@ -9,7 +9,7 @@ from .utils import detectUser, send_verification_email
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.core.exceptions import PermissionDenied
 from django.contrib.auth.tokens import default_token_generator
-
+from vendor .models import Vendor
 
 
 # Restrict the vendor from accessing the customer page
@@ -168,6 +168,7 @@ def custDashboard(request):
 @login_required(login_url='login')
 @user_passes_test(check_role_vendor)
 def vendorDashboard(request):
+    
     return render(request, 'accounts/vendorDashboard.html')
 
 

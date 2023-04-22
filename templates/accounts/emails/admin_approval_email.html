@@ -1,0 +1,11 @@
+{% autoescape off %}
+
+Hi {{user.first_name}},
+{%if is_approved %}
+Congratulaions! Ypur restaurant has been approved by our admin team. --Apothecary
+{% else %}
+We're Sorry! Your store is not been approved.
+Please click on below link to confirm your registration. For more details, please contact support@apothecary
+{% endif %}
+
+{% endautoescape %}

@@ -519,8 +519,8 @@
 .user-nav-list ul li:last-child { padding-bottom: 17px; }
 .user-nav-list ul li a i { min-width: 14px; display: inline-block; margin-right: 10px; color: #b3b6c0; font-size: 14px; vertical-align: middle; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; line-height: 13px; }
 .user-nav-list ul li { list-style: none; padding: 15px 20px 12px 20px; margin: 0px; border-top: 1px solid #ebedf3; line-height: 1; -webkit-box-shadow: none; box-shadow: none; text-shadow: none; display: block; width: 100%; }
-.user-nav-list ul li.active a, .user-nav-list ul li.active i { color: #202A44; }
-.user-nav-list ul li a { display: block; outline: none; text-decoration: none; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; font-size: 12px; color: #2f313a; font-weight: 600; text-transform: uppercase; }
+.user-nav-list ul li.active a, .user-nav-list ul li.active i { color: #883000; }
+.user-nav-list ul li a { display: block; outline: none; text-decoration: none; text-shadow: none; -webkit-box-shadow: none; box-shadow: none; font-size: 12px; color: #883000; font-weight: 600; text-transform: uppercase; }
 /* User Nav List Styel */
 /* User Dashboard Styel */
 .account-header { padding-top: 60px; margin-bottom: 30px; }
